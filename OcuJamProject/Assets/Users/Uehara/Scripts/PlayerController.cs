@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour {
 
 	private Vector3 FRONT_WALK_DIRECTION = new Vector3(0, 1, 1);
 	public float walkSpeed = 0.5f;
+	public float angleSpeed = 2.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -55,7 +56,7 @@ public class PlayerController : MonoBehaviour {
 			Debug.Log("Cos : "+Mathf.Cos(this.transform.eulerAngles.x));
 			float nextAngleX = this.transform.eulerAngles.x + InputManager.VERTICLE_R;
 			if (!(70 < nextAngleX && nextAngleX < 290))
-					this.transform.eulerAngles += new Vector3(InputManager.VERTICLE_R, InputManager.HORIZONTAL_R, 0);
+					this.transform.eulerAngles += new Vector3(InputManager.VERTICLE_R, InputManager.HORIZONTAL_R, 0) * angleSpeed;
 			break;
 		case PLAYER_STATE.DEAD:
 			break;

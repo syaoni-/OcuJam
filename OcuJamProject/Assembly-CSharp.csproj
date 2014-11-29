@@ -46,9 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Users\Uehara\Scripts\EnemyTest.cs" />
+     <Compile Include="Assets\Users\Uehara\Scripts\LaserBulletController.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\Manager\InputManager.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\Manager\SingletonMonoBehaviour.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Users\Uehara\Scripts\ShootController.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>

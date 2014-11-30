@@ -14,6 +14,9 @@ public class Enemy : MonoBehaviour {
 	public float STOP_TIME;
 	private float sceneTime = 0.0f;
 
+	public AudioClip RobotSE;
+	public AudioClip explodeSE;
+
 	public GameObject burstEffect;
 
 	private enum ENEMY_STATE{
@@ -56,6 +59,7 @@ public class Enemy : MonoBehaviour {
 		if (nextState != ENEMY_STATE.NONE) {
 			switch(nextState){
 			case ENEMY_STATE.STOP:
+				audio.PlayOneShot(RobotSE);
 				break;
 
 			case ENEMY_STATE.MOVE:
@@ -89,8 +93,24 @@ public class Enemy : MonoBehaviour {
 
 	private void OnCollisionEnter(Collision other){
 		if (other.gameObject.tag == "Bullet") {
+			audio.PlayOneShot(explodeSE);
 			Instantiate(burstEffect, this.transform.position, this.transform.rotation);
 			Object.Destroy (this.gameObject);
 		}
 	}
+
+
+	public void FindPlayer(GameObject player){
+		RaycastHit hit;
+		Vector3 fromPos = transform.forward;
+		Debug.Log (player.gameObject.tag);
+		if (Physics.Raycast (this.transform.position, (this.transform.position - player.transform.position).normalized, out hit)) {
+			Debug.Log("1 : "+hit.transform.gameObject.tag);
+			Debug.Log("2 : "+hit.collider.gameObject.tag);
+			if (hit.transform.gameObject.tag == "Player") {
+				Debug.Break();
+			}
+		}
+	}
+
 }

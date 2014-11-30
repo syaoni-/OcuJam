@@ -1,8 +1,66 @@
 fileFormatVersion: 2
-guid: 3336147c5d4e64380bf58df7279278ab
+guid: ad91e983ab7334ceeb1ee381a312b5af
 ModelImporter:
   serializedVersion: 16
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: _head
+    100002: Armature
+    100004: Cube
+    100006: foot_L
+    100008: foot_R
+    100010: hand_L
+    100012: hand_R
+    100014: handle_L
+    100016: handle_R
+    100018: hip_L
+    100020: hip_R
+    100022: lower_arm_L
+    100024: lower_arm_R
+    100026: lower_leg_L
+    100028: lower_leg_R
+    100030: master
+    100032: //RootNode
+    100034: neck
+    100036: shoulder_L
+    100038: shoulder_R
+    100040: spine1
+    100042: spine2
+    100044: spine3
+    100046: upper_arm_L
+    100048: upper_arm_R
+    100050: upper_leg_L
+    100052: upper_leg_R
+    400000: _head
+    400002: Armature
+    400004: Cube
+    400006: foot_L
+    400008: foot_R
+    400010: hand_L
+    400012: hand_R
+    400014: handle_L
+    400016: handle_R
+    400018: hip_L
+    400020: hip_R
+    400022: lower_arm_L
+    400024: lower_arm_R
+    400026: lower_leg_L
+    400028: lower_leg_R
+    400030: master
+    400032: //RootNode
+    400034: neck
+    400036: shoulder_L
+    400038: shoulder_R
+    400040: spine1
+    400042: spine2
+    400044: spine3
+    400046: upper_arm_L
+    400048: upper_arm_R
+    400050: upper_leg_L
+    400052: upper_leg_R
+    4300000: Cube
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: Cube
   materials:
     importMaterials: 1
     materialName: 0

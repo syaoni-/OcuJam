@@ -43,7 +43,6 @@ public class InputManager : SingletonMonoBehaviour<InputManager> {
 
 		if (Input.GetAxis ("LeftJoyStickV") != 0.0f) {
 			VERTICLE_L = -Input.GetAxis ("LeftJoyStickV");  
-			Debug.Log("LeftJoyStickV : "+VERTICLE_L);
 		}
 
 		if (Input.GetAxis("RightJoyStickH") != 0.0f)

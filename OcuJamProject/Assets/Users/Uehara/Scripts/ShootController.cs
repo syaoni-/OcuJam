@@ -17,6 +17,7 @@ public class ShootController : MonoBehaviour {
 	private SHOOT_STATE currentState = SHOOT_STATE.SHOOT;
 	private SHOOT_STATE nextState = SHOOT_STATE.NONE;
 
+	public AudioClip shootSE;
 
 	// Use this for initialization
 	void Start () {
@@ -47,6 +48,7 @@ public class ShootController : MonoBehaviour {
 
 			case SHOOT_STATE.RELOAD:
 				Instantiate(bullet, this.transform.position, this.transform.rotation);
+				audio.PlayOneShot(shootSE);
 				break;
 			}
 			currentState = nextState;

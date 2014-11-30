@@ -63,12 +63,17 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRVisionGuide.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\CameraAngleController.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Users\Uehara\Scripts\EnemySightController.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\GameController.cs" />
+     <Compile Include="Assets\Users\Uehara\Scripts\GoalTriggerController.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\LaserBulletController.cs" />
+     <Compile Include="Assets\Users\Uehara\Scripts\Manager\FadeManager.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\Manager\InputManager.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\Manager\SingletonMonoBehaviour.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\ShootController.cs" />
+     <Compile Include="Assets\Users\Uehara\Scripts\StartSceneController.cs" />
+     <Compile Include="Assets\Users\Uehara\Scripts\TextureResize.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />

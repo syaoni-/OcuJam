@@ -3,6 +3,13 @@
 --- !u!78 &1
 TagManager:
   tags:
+  - TriggerObject
+  - Bullet
+  - 
+  - 
+  - 
+  - BUllets
+  - BUllet
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -40,4 +47,8 @@ TagManager:
   - name: Default
     userID: 0
     uniqueID: 0
+    locked: 0
+  - name: Player
+    userID: 1
+    uniqueID: 3613928163
     locked: 0

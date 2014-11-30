@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Users/Uehara/Scripts/Enemy.cs">
+    <Files>
+      <File FileName="Assets/Users/Uehara/Scripts/PlayerController.cs" Line="57" Column="49" />
+      <File FileName="Assets/Users/Uehara/Scripts/ShootController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Users/Uehara/Scripts/LaserBulletController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Users/Uehara/Scripts/Enemy.cs" Line="91" Column="42" />
+      <File FileName="Assets/Users/Uehara/Scripts/CameraAngleController.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

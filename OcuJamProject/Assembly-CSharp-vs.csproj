@@ -70,7 +70,9 @@
      <Compile Include="Assets\Users\Uehara\Scripts\Manager\FadeManager.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\Manager\InputManager.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\Manager\SingletonMonoBehaviour.cs" />
+     <Compile Include="Assets\Users\Uehara\Scripts\Manager\SoundManager.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Users\Uehara\Scripts\ResulutController.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\ShootController.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\StartSceneController.cs" />
      <Compile Include="Assets\Users\Uehara\Scripts\TextureResize.cs" />

@@ -93,7 +93,8 @@ public class Enemy : MonoBehaviour {
 
 	private void OnCollisionEnter(Collision other){
 		if (other.gameObject.tag == "Bullet") {
-			audio.PlayOneShot(explodeSE);
+			//audio.PlayOneShot(explodeSE);
+			SoundManager.Instance.playOneSE(1);
 			Instantiate(burstEffect, this.transform.position, this.transform.rotation);
 			Object.Destroy (this.gameObject);
 		}

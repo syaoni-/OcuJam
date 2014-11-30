@@ -10,4 +10,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Users/Uehara/Scenes/Test.unity
   - enabled: 1
+    path: Assets/Users/Uehara/Scenes/GOAL.unity
+  - enabled: 0
     path: Assets/Users/Uehara/Scenes/Result.unity

@@ -62,6 +62,7 @@ GameObject:
   - 195: {fileID: 19500000}
   - 65: {fileID: 6500000}
   - 54: {fileID: 5400000}
+  - 82: {fileID: 8200000}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Untagged
@@ -189,6 +190,64 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4, y: 3, z: 15}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!82 &8200000
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!95 &9500000
 Animator:
   serializedVersion: 3
@@ -258,6 +317,8 @@ MonoBehaviour:
   nextRoundNum: 0
   roundMaxNum: 0
   STOP_TIME: 2
+  RobotSE: {fileID: 8300000, guid: 965b8a1249dbe44eeb4b24505a8d4a6f, type: 3}
+  explodeSE: {fileID: 0}
   burstEffect: {fileID: 100012, guid: 2fb08c7daa1be419289eabda317d72b1, type: 2}
   currentState: 1
 --- !u!195 &19500000

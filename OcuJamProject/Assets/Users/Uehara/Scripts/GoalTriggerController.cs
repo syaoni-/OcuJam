@@ -5,7 +5,7 @@ public class GoalTriggerController : MonoBehaviour {
 
 	private void OnTriggerEnter(Collider other){
 		if (other.tag == "Player") {
-			FadeManager.Instance.LoadLevel("Result",1.0f);
+			FadeManager.Instance.LoadLevel("GOAL",1.0f);
 		}
 	}
 }

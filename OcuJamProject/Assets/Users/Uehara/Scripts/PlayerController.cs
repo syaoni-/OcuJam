@@ -52,11 +52,9 @@ public class PlayerController : MonoBehaviour {
 			/*  Move and Angle*/
 			this.transform.position += this.transform.right * InputManager.HORIZONTAL_L * walkSpeed;
 			this.transform.position += new Vector3(this.transform.forward.x * InputManager.VERTICLE_L * walkSpeed, 0, this.transform.forward.z * InputManager.VERTICLE_L * walkSpeed);//this.transform.forward * InputManager.VERTICLE_L * walkSpeed;
-			Debug.Log("X : "+this.transform.eulerAngles.x);
-			Debug.Log("Cos : "+Mathf.Cos(this.transform.eulerAngles.x));
 			float nextAngleX = this.transform.eulerAngles.x + InputManager.VERTICLE_R;
 			if (!(70 < nextAngleX && nextAngleX < 290))
-					this.transform.eulerAngles += new Vector3(InputManager.VERTICLE_R, InputManager.HORIZONTAL_R, 0) * angleSpeed;
+					this.transform.eulerAngles += new Vector3(0, InputManager.HORIZONTAL_R, 0) * angleSpeed;
 			break;
 		case PLAYER_STATE.DEAD:
 			break;

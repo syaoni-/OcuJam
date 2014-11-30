@@ -43,9 +43,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 400004}
   - 114: {fileID: 11400000}
+  - 65: {fileID: 6500000}
   m_Layer: 0
   m_Name: LaserBullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,9 +96,10 @@ GameObject:
   - 33: {fileID: 3300000}
   - 136: {fileID: 13600000}
   - 23: {fileID: 2300000}
+  - 54: {fileID: 5400000}
   m_Layer: 0
   m_Name: LaserBulltCollider
-  m_TagString: TriggerObject
+  m_TagString: BUllet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -206,6 +208,33 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &5400000
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &6500000
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 15}
+  m_Center: {x: 0, y: 0, z: 10}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
